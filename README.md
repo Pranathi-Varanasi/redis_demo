@@ -18,7 +18,7 @@ String commands
 
 SET mykey "Hello, World!"
 
-SETEX name 3600 "hello" (3600-ttl)
+SETEX name 3600 "hello" (3600-expiration time)
 
 GET mykey
 
