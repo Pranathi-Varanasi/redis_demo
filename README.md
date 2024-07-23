@@ -3,22 +3,34 @@
 commands 
 
 DEL mykey
+
 EXISTS mykey
+
 KEYS *
+
 KEYS user:*
+
 RANDOMKEY
+
 RENAME oldkey newkey
+
 TYPE mykey
 
 
 String commands
 
 SET mykey "Hello, World!"
+
 SETEX name 3600 "hello"       (3600-ttl)
+
 GET mykey
+
 INCR mycounter
+
 DECR mycounter
+
 APPEND mykey " More text"
+
 
 hash commands
 
